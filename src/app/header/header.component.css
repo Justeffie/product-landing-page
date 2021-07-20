@@ -1,0 +1,33 @@
+#coleccion {
+  width: 100%;
+  padding-top: 51px;
+}
+#imag-colec {
+  width: 100%;
+  height: 216px;
+  overflow:hidden;
+}
+.myImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+@media (min-width:425px) {
+  #imag-colec {
+    height: 292px;
+  }
+}
+
+@media (min-width: 768px) {
+  #imag-colec {
+    height: 513px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #imag-colec {
+    height: 100vh;
+  }
+}
