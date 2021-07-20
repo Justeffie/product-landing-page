@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  socialMedias: Object[] = [
+    {src: 'assets/facebook.png', description: 'Facebook'},
+    {src: 'assets/twitter.png', description: 'Twitter'},
+    {src: 'assets/instagram.png', description: 'Instagram'}
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

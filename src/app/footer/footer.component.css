@@ -1,0 +1,221 @@
+footer {
+  width: 100%;
+  background-color: #FCE8E8;
+}
+
+h4 {
+  text-align: center;
+}
+
+#footer-div {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#nov {
+  text-align:center;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 20px;
+}
+#busc {
+  padding-top: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#busc-prod {
+  padding: 6px;
+  width: 74.4%;
+  border: 1px dotted purple;
+}
+#email {
+  padding: 6px;
+  width: 50%;
+  margin-left: 50px;
+  border: 1px dotted purple;
+}
+#busc-sub {
+  border: none;
+  padding: 8px;
+  cursor:pointer;
+  background-color: #F6BBBB;
+  color:white;
+}
+#submit {
+  border: none;
+  padding: 8px;
+  cursor:pointer;
+  background-color: #F6BBBB;
+  color:white;
+}
+#redes {
+  border-top: 1px dotted black;
+  padding-bottom: 50px;
+  padding-top: 24px;
+}
+#nr {
+  text-align:center;
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 30px;
+  width: 100%
+}
+.direcc {
+  border-top: 1px dotted black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#direc {
+  text-align:center;
+  font-family: 'Pontano Sans', sans-serif;
+  margin-top: 20px;
+}
+.social {
+  width: 30px;
+}
+#nr-div {
+  margin-top: 20px;
+  width: 101px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width:425px) {
+  #footer-div {
+    width: 398px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-div {
+    padding-top: 40px;
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #email {
+    margin-left: 0;
+    width: 182px;
+  }
+  #redes {
+    border: 1px dotted;
+    border-color: transparent black transparent black;
+    padding: 30px 35px 57px 31px;
+    width: 187px;
+  }
+  #nr {
+    margin-top: 0;
+  }
+  #nr-div {
+    width: 99px;
+  }
+  #direc {
+    padding: 7px;
+    width: 230px;
+    margin-top:19px;
+  }
+  .direcc {
+    margin-bottom: 13px;
+    border-top: none;
+  }
+  footer {
+    padding-top: 20px;
+    height: 250px;
+  }
+  #footer-all {
+    padding-top: 20px;
+    height: 228px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  #busc {
+    width: 50%;
+  }
+  #email {
+    width: 160px;
+    margin-left: 37px;
+  }
+  #submit {
+    width: 59px;
+  }
+
+  #redes {
+    width: 260px;
+  }
+
+  .direcc {
+    margin-right: 33px;
+  }
+  #search {
+    position: absolute;
+    left: 253px;
+    top: 15px;
+  }
+  #form1 input {
+    padding: 6px;
+    border: 1px dotted purple;
+  }
+  #form1 button {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #F6BBBB;
+    color: white;
+  }
+  #footer-div {
+    width: 307px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #footer-div {
+    width: 323px;
+  }
+  #email {
+    width: 250px;
+    margin-left: 0;
+  }
+  #redes {
+    width: 287px;
+  }
+  #form input[type="email"] {
+    width: 251px;
+  }
+  #search {
+    left: 410px;
+  }
+  #all {
+    position: relative;
+  }
+  #imag-colec {
+    width: 100%;
+  }
+  #all, #footer-all {
+    width: 1440px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #footer-all {
+    padding-top: 20px;
+    height: 228px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+}

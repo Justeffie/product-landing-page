@@ -1,1 +1,21 @@
-<p>footer works!</p>
+<footer>
+  <div id="footer-all">
+    <div id="footer-div">
+      <p id="nov">Mantenete al tanto de las últimas novedades</p>
+      <form id="form">
+        <input type="email" id="email" placeholder="Completá tu email" name="email">
+        <input type="submit" id="submit">
+      </form>
+    </div>
+    <div id="redes">
+      <p id="nr">Nuestras redes</p>
+      <div id="nr-div">
+        <img *ngFor="let media of socialMedias; let i = index;" alt="{{media.description}}" [src]="media.src" class="social">
+      </div>
+    </div>
+    <div class="direcc">
+      <h4>Encontranos en:</h4>
+      <p id="direc"> Av. Callao, 800. Buenos Aires, Argentina.</p>
+    </div>
+  </div>
+</footer>
