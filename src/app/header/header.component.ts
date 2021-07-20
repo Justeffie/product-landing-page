@@ -23,7 +23,6 @@ export class HeaderComponent implements OnInit {
   }
 
   carousel() {
-    console.log(this.headerPics.length);
     if (this.carouselCounter == this.headerPics.length-1) this.carouselCounter = 0;
 
     this.selectedPic = this.headerPics[this.carouselCounter];
