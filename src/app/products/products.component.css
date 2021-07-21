@@ -1,0 +1,11 @@
+#productos {
+  width: 100%;
+  inset: 2px -1px 38px -13px rgba(0,0,0,0.75);
+}
+
+#destacados {
+  margin-top:70px;
+  text-align:center;
+  font-family: 'Philosopher', sans-serif;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,49 @@
+#busc {
+  padding-top: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+#busc-prod {
+  padding: 6px;
+  width: 74.4%;
+  border: 1px dotted purple;
+}
+#busc-sub {
+  border: none;
+  padding: 8px;
+  cursor:pointer;
+  background-color: #F6BBBB;
+  color:white;
+}
+
+@media (min-width:425px) {
+  #busc {
+    width: 76%;
+  }
+  #busc-prod {
+    width: 77.4%;
+  }
+}
+@media (min-width: 768px) {
+  #busc {
+    padding-top: 80px;
+    width: 64%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #busc {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  #busc {
+    width: 547px;
+  }
+  #busc-prod {
+    width: 471px;
+  }
+}

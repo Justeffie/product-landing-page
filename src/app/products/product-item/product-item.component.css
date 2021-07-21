@@ -1,0 +1,179 @@
+.prod {
+  width: 90%;
+  height: 343px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -4;
+  position:relative;
+  margin-bottom: 10px;
+  border: 1px solid purple;
+  overflow:hidden;
+}
+
+.prod-prod {
+  width: 100%;
+  object-fit:contain;
+}
+
+.prod-prod:hover {
+  opacity: 0.6;
+}
+
+.ver-mas {
+  cursor: pointer;
+  width: 100px;
+  height: 54px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid white;
+  padding: 16px;
+  color:pink;
+  font-family: 'Philosopher', sans-serif;
+  position:absolute;
+  z-index: 1;
+  font-size: 1.05rem;
+  left: 84px;
+  top: 140px;
+  display:none;
+}
+
+.prod:hover {
+  width: 91%;
+  box-shadow: 2px -1px 36px -12px rgba(0,0,0,0.75);
+  border: 1px solid pink;
+}
+
+.comprar {
+  cursor: pointer;
+  width: 93px;
+  padding: 10px;
+  letter-spacing: 1px;
+  background-color: #e45152;
+  border-radius: 0px;
+  box-shadow: 4px 2px 39px -15px rgba(0,0,0,0.9);
+  color:white;
+  font-size: 1.05rem;
+  font-weight: bolder;
+  font-family: 'Pontano Sans', sans-serif;
+  position:absolute;
+  z-index: 1;
+  bottom: 0px;
+  left: 85px;
+  border: 1px dotted pink;
+}
+
+.comprar:hover {
+  cursor: pointer;
+}
+
+.price {
+  width: 86px;
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: #FBD48E;
+  border-radius: 0px;
+  box-shadow: 17px 2px 25px -16px rgba(5,5,5,0.25);
+  color:black;
+  font-size: 1.05rem;
+  font-family: 'Pontano Sans', sans-serif;
+  position:absolute;
+  z-index: 1;
+  border: 1px dotted black;
+}
+
+@media (min-width:425px) {
+  .prod {
+    width: 90%;
+    height: 330px;
+  }
+  .prod:hover {
+    width: 91%;
+  }
+  .ver-mas {
+    left: 88px;
+    top: 150px;
+  }
+
+  .comprar {
+    left: 93px;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .prod {
+    width: 45%;
+    display: inline-block;
+    height: 304px;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  .prod:hover {
+    width: 43%;
+  }
+  .ver-mas {
+    left: 71px;
+    top: 126px;
+  }
+  .comprar {
+    left: 73px;
+  }
+}
+
+@media (min-width: 768px) {
+  .prod {
+    width: 42%;
+    display: inline-block;
+    margin-left: 36px;
+  }
+  .prod:hover {
+    width: 43%;
+  }
+  .ver-mas {
+    left: 110px;
+    top: 155px;
+  }
+}
+@media (min-width: 900px) {
+  .comprar {
+    left: 61px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .prod {
+    width: 294px;
+    height: 337px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+  }
+  .prod:hover {
+    width: 296px;
+  }
+  .ver-mas {
+    left: 96px;
+    top: 154px;
+  }
+  .comprar {
+    left: 102px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .prod {
+    width: 370px;
+    height: 413px;
+    margin-left: 31px;
+  }
+
+  .prod:hover {
+    width: 373px;
+  }
+
+  .ver-mas {
+    left: 131px;
+    top: 180px;
+  }
+  .comprar {
+    left: 130px;
+  }
+}
